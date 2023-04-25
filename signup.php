@@ -21,7 +21,7 @@ session_start();
      
       
 
-        header("Location: /html/login_page.html");
+        header("Location: login_page.html");
         die;
       }
       else

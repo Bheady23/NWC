@@ -24,7 +24,7 @@ body{
     text-align: center;
     padding-top: 10px;
     font-weight: bolder;
-    font-size: x-large;
+   
 }
 #pic2{
    
@@ -72,16 +72,27 @@ body{
 
 }
 
-#removebox{ 
+#recipebox{ 
     grid-column: 3;
     background-color: grey;
     margin:auto;
     width: 300px;
     padding: 20px;
+    padding-bottom: 150px;
     border: solid black;
 }
 
 #display_table{
     grid-column: 2;
+    border: solid black;
+    background-color: cadetblue;
+}
+
+#btn{
+    padding: 10px;
+    width: 200px;
+    color: white;
+    background-color: lightblue;
+    border: none;
     border: solid black;
 }
